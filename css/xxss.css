@@ -1,0 +1,185 @@
+ @font-face {
+  font-family: 'iconfont';  /* project id 408403 */
+  src: url('http://at.alicdn.com/t/font_408403_7zvktmf4be1jdcxr.eot');
+  src: url('http://at.alicdn.com/t/font_408403_7zvktmf4be1jdcxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408403_7zvktmf4be1jdcxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408403_7zvktmf4be1jdcxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408403_7zvktmf4be1jdcxr.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:0.16rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+}
+
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: red;
+	padding: 0.2rem;
+	
+}
+section{
+
+	background-color: limegreen;
+	position: absolute;
+	top: 1rem;
+	bottom: 1rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow-y: scroll;
+}
+footer{
+	width: 100%;
+	height:1rem;
+	background-color: blue;
+	position: fixed;
+	bottom: 0;
+	padding: 0.1rem;
+}
+header span{
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: blue;
+	float: left;
+
+}
+.tb{
+	font-size: 0.5rem;
+	text-align: center;
+}
+header span:nth-child(2){
+	width: 1rem;
+
+	margin-left: 2.25rem;
+	background-image: url('../img/logo.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+header span:nth-child(3){
+	float: right;
+	
+}
+.banner{
+	width: 100%;
+	height: 3rem;
+	background-color: pink;
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;  
+    background-size: 100% 100%;
+}
+.ank{
+	width: 100%;
+	height: 2rem;
+	background-color: red;
+	border-top: 0.2rem solid #f2f2f2;
+	border-bottom: 0.2rem solid #f2f2f2;
+    padding: 0.2rem 0.2rem;
+}
+.an{
+	width: 25%;
+	height: 100%;
+	background-color: darkblue;
+	float: left;
+}
+.an a{
+	
+	display: block;
+    width: 0.7rem;
+    height:0.7rem;
+    border-radius: 50%;
+    background-color: lightyellow;
+    margin: 0 auto;
+}
+.an span{
+    display: block;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.05rem;
+}
+.hd{
+	width: 100%;
+	height: 0.8rem;
+	background-color: indianred;
+	float: left;
+}
+.hd span{
+	font-size: 0.4rem;
+	display: block;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.xbn{
+	display: inline-block;
+	width: 100%;
+	height: 2rem;
+	background-color: darkred;
+	float: left;
+	background-image: url('../img/xbn.jpg');
+	background-repeat: no-repeat;  
+    background-size: 100% 100%;
+}
+.xtj{
+	width: 100%;
+	height: 2.5rem;
+	background-color: #f2f2f2;
+	float: left;
+	padding:0.2rem;
+
+
+}
+footer div{
+	width: 20%;
+	height:100%;
+	background-color: orchid;
+	float: left;
+
+}
+footer div:nth-child(5){
+	float: right;
+}
+
+footer span{
+		display: block;
+}
+footer span{
+	display: block;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.05px;
+}
+.xtj-list{
+	width: 2.2rem;
+	height: 100%;
+	float: left;
+	background-color: indianred;
+}
+.xtj-list1{
+	margin-left: 0.08rem;
+}
+
+.xtj span{
+	display: block;
+	font-size: 0.4rem;
+	text-align: center;
+	color: cornflowerblue;	
+}
+.xtj-img{
+	width: 2.2rem;
+	height: 1.58rem;
+	background-color: skyblue;
+}
+.xbn1{
+	width: 100%;
+	height: 2rem;
+	background-color: red;
+	float: left;
+	background-image: url('../img/liuye.jpg');
+	background-repeat: no-repeat;  
+    background-size: 100% 100%;
+}
